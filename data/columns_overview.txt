@@ -2,7 +2,7 @@ Summary of columns contained and what the abbreviations stand for
 
 General
 
-season_id: season code (e.g. 22023 → 2023–24)
+season_id: season code (e.g. 22023 → 2023–24 / or say season_id = 2+[starting year])
 game_id: game identifier
 game_date: date played
 season_type: Regular / Playoffs / Pre-season / Play-In
