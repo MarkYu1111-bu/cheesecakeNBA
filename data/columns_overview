@@ -1,0 +1,74 @@
+Summary of columns contained and what the abbreviations stand for
+
+General
+
+season_id: season code (e.g. 22023 → 2023–24)
+game_id: game identifier
+game_date: date played
+season_type: Regular / Playoffs / Pre-season / Play-In
+matchup_home / matchup_away: matchup text (“LAL vs. DEN”, “DEN @ LAL”)
+wl_home / wl_away: win or loss flag
+min: total team minutes (usually 240 = 48×5)
+video_available_home / video_available_away: highlight flag
+
+Team Identifiers
+
+team_id_home / team_id_away: team numeric ID
+team_abbreviation_home / team_abbreviation_away: 3-letter team code (e.g. LAL)
+team_code_home / team_code_away: internal team code (redundant)
+team_name_home / team_name_away: full team name
+
+Shooting & Scoring
+
+fgm: field goals made
+fga: field goals attempted
+fg_pct: field goal percentage
+fg3m: 3-point field goals made
+fg3a: 3-point field goals attempted
+fg3_pct: 3-point field goal percentage
+ftm: free throws made
+fta: free throws attempted
+ft_pct: free throw percentage
+pts: total points scored
+plus_minus: point differential (team points − opponent points)
+
+Rebounding & Defense
+
+oreb: offensive rebounds
+dreb: defensive rebounds
+reb: total rebounds
+ast: assists
+stl: steals
+blk: blocks
+tov: turnovers
+pf: personal fouls
+
+Advanced / Situational Stats
+
+pts_paint: points scored in the paint
+pts_2nd_chance: second-chance points
+pts_fb: fast-break points
+largest_lead: largest lead held in the game
+lead_changes: number of lead changes
+times_tied: number of times score was tied
+team_turnovers: turnovers committed by team (non-forced)
+total_turnovers: total turnovers (all types)
+team_rebounds: total team rebounds
+pts_off_to: points scored off turnovers
+
+Per-Period Scoring (from line_score)
+
+pts_qtr1: points in 1st quarter
+pts_qtr2: points in 2nd quarter
+pts_qtr3: points in 3rd quarter
+pts_qtr4: points in 4th quarter
+pts_ot1: points in 1st overtime
+pts_ot2: points in 2nd overtime
+pts_ot3: points in 3rd overtime
+pts_ot4: points in 4th overtime
+pts_ot5: points in 5th overtime
+pts_ot6: points in 6th overtime
+pts_ot7: points in 7th overtime
+pts_ot8: points in 8th overtime
+pts_ot9: points in 9th overtime
+pts_ot10: points in 10th overtime
